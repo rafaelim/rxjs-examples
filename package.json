@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-node": "ts-node"
+    "start:basic": "ts-node src/basic/index.ts",
+    "start:basic:rx-promise": "ts-node src/basic/rx-promise.ts",
+    "start:fetch:promise": "ts-node src/fetch/promise.ts",
+    "start:fetch:rx": "ts-node src/fetch/rx.ts",
+    "start:polling:rx-delay": "ts-node src/polling/rx-delay.ts",
+    "start:polling:rx-interval": "ts-node src/polling/rx-interval.ts",
+    "start:polling:setinterval": "ts-node src/polling/setInterval.ts"
   },
   "keywords": [],
   "author": "",
